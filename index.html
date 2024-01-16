@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .first{
+      height: 579px;
+      width: 348px;
+      background-color:hsl(276, 55%, 52%);
+      position: relative;
+    }
+    .circle{
+      position: relative;
+      height: 250px;
+      width: 348px;
+      
+      background-color: rgb(48, 16, 164);
+      top: 579px;
+      border-bottom-right-radius: 100%;
+      background-color:hsl(276, 55%, 52%);
+    }
+    .f1{
+      background-color: hsl(276, 55%, 52%);
+      border-radius: 20px;
+    }
+    .phone{
+      height: 700px;
+      width:320px;
+      border: 15px solid white;
+      position: absolute;background-color: hsl(206, 6%, 79%);
+      top: 110px;
+      left: 280px;
+      border-radius: 30px;
+      box-shadow: 4px 4px 4px 5px rgb(0 0 0 / 10%);
+      
+    }
+    .topbar{
+      height: 25px;
+      width: 165px;
+      background-color: white;
+      position: relative;
+      left: 64px;
+      border-bottom-left-radius:15px ;
+      border-bottom-right-radius: 15px;
+    }
+    .profile{
+      height: 61px;
+     
+      background-color:hsl(276, 55%, 52%);
+      display: flex;
+      border-bottom-left-radius: 10px ;
+      border-bottom-right-radius: 10px;
+
+    }
+    .symbol{
+      padding: 13px 2px 0px 10px;
+    }
+    img{
+      border: 2px solid white;
+    }
+    .avatar{
+      padding: 8px 2px 0px ;
+    }
+    .Name{
+      color: white;
+      padding:8px;
+    }
+    .symbol2{
+      padding: 8px 0px 3px 60px;
+    }
+    .chatbox{
+      height: 607px;
+      width: auto;
+      background-color: hsl(206, 6%, 79%) ;
+      
+      border-bottom-left-radius:25px ;
+      border-bottom-right-radius: 25px;
+    }
+    .f,.s,.lt{
+      width: 160px;
+      border: 1px solid;
+      margin: 15px 11px;
+      padding: 12px 35px 10px 12px ;
+      border-radius: 15px;
+      background-color: hsl(274, 46%, 77%);
+    }
+    .rf{
+      height: 52px;
+      width: 180px;
+      display: flex;
+      padding: 10px 4px 0px 135px;
+    }
+    img{
+      height: 51px;
+      width: 51px;
+      border: 0px solid ;
+      border-radius: 10px;
+    }
+    .img1,.img2,.img3{
+      padding-right: 8px;
+    }
+    .th,.fo{
+      width: 160px;
+      border: 1px solid;
+      margin: 10px 4px 8px 97px;
+      padding: 12px 35px 10px 12px ; border-radius: 15px;
+      background-color: hsl(274, 46%, 77%);
+    }
+    .lt{
+      width: 200px;
+    }
+    .pay1,.pay2{
+      height: 35px;
+      width: 200px;
+      background-color:hsl(276, 55%, 52%);
+      border-radius: 10px;
+      padding: 10px 0px 0px 5px;
+      margin-bottom: 10px;
+      margin-left: 8px ;
+    }
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .pay1,.pay2{
+      display: flex;
+    }
+    .msg{
+      display: flex;
+      background-color: white;
+      margin-left: 10px;
+      margin-right: 10px;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      padding-top: 10px;
+    }
+    .mid{
+      position: relative;
+      left: 750px;
+      top: 150px;
+      font-family: 'Rubik', sans-serif;
+      
+    }
+    .heading{
+      color: hsl(271, 36%, 24%) ;
+    }
+    .paragraph{
+      color: hsl(270, 7%, 64%);
+    }
+    .last{
+      height: 615px;
+      width: 250px;
+      background-color: hsl(276, 100%, 81%);
+      position: relative;
+      left: 1300px;
+      top: 40px;
+      
+    }
+    .lastup{
+      height: 230px;
+      width: 250px;
+      background-color: aqua;
+      position: relative;
+      bottom: 210px;
+      border-top-left-radius: 100%;
+      background-color:  hsl(276, 100%, 81%);
+      opacity: ;
+
+    }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+  color: #fafcff;
+}
+</style>
+  </style>
+</head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+<body>
+  <div class="first">
+    <div class="circle">
+
+</div>
+    <div class="phone">
+      <div class="f1">
+      <div class="topbar">
+
+      </div>
+      <div class="profile">
+        <div class="symbol" ><span class="material-symbols-outlined">
+          arrow_back_ios
+          </span></div>
+        <div class="avatar" ><span> <img src="./images/avatar.jpg" alt="image" height="30px" width="28px" style="border-radius: 50%;"> </span>
+        
+        </div>
+        <div class="Name">
+          <h4>Mahesh Ponna</h4>
+          <h5>Available</h5>
+
+        </div>
+        <div class="symbol2">
+          <span class="material-symbols-outlined">
+            more_vert
+            </span>
+        </div>
+      </div>
+    </div>
+    <div class="chatbox">
+      <div class="f">
+        <p>
+          That sounds great. I’d be happy with that.</p>
+      </div>
+      <div class="s">
+        <p> That sounds great. I’d be happy with that.</p>
+      </div>
+      <div class="rf">
+        <div class="img1">
+          <img src="./images/dog-image-1.jpg" alt="">
+        </div>
+        <div class="img2">
+          <img src="./images/dog-image-2.jpg" alt="">
+        </div>
+        <div class="img3">
+          <img src="./images/dog-image-3.jpg" alt="">
+        </div>
+       
+      </div>
+      <div class="th">
+        <p>
+          Here are a few pictures. She’s a happy girl!
+        </p>
+      </div>
+      <div class="fo">
+        <p>Can you make it?</p>
+
+      </div>
+      <div class="lt">
+        <p>She looks so happy! The time we discussed works. How long shall I take her out for?
+        </p>
+
+      </div>
+      <div class="pay1">
+        <div class="sym"> <span class="material-symbols-outlined">
+          radio_button_unchecked
+          </span></div>
+        
+          <p style="padding-top: px; padding-left: 10px;">30 minute walk </p>
+        <div class="pay12">
+          <b style="color: white; padding-left: 15px; padding-top: 4px;">$29</b>
+        </div>
+      </div>
+      <div class="pay2">
+        <div class="sym"> <span class="material-symbols-outlined">
+          radio_button_unchecked
+          </span></div>
+        
+          <p style="padding-top: px; padding-left: 10px;">1 hour walk </p>
+          <div class="pay12">
+            <b style="color: white; padding-left: 15px; padding-top: 4px;">$49</b>
+          </div>
+        
+    </div>
+    <div class="msg"><div class="m1">
+      <label for="">
+        <input type="text" placeholder="Type a message...." style="border: none;margin-left: 30px;margin-top: 4px;">
+      </label>
+    </div>
+      <div  class="arr" style="height: 30px;position: relative;bottom: 5px;; width: 30px; background-color: hsl(271, 36%, 24%); border-radius: 50%; margin-left: 60px;">
+
+        <span class="material-symbols-outlined" style="padding: 3px ;">
+          arrow_forward_ios
+          </span>
+      </div>
+
+    </div>
+
+   </div>
+  
+
+  </div>
+  <div class="mid">
+    <div class="heading">
+      <h1>Simple booking</h1>
+    </div>
+    <br>
+    <br>
+    <div class="paragraph" style="width: 500px;">
+      <p style="font-size: 20px;">
+        Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+  discuss arrangements and make bookings. Once the walk has been completed you can rate 
+  your walker and book again all through the chat.
+  
+      </p>
+    </div>
+   </div>
+   <div class="last" >
+    <div class="lastup">
+
+    </div>
+   </div>
+<!--
+  Samuel Green
+  Available to Walk
+
+  Could you send over some pictures of your dog, please?
+
+  Here are a few pictures. She’s a happy girl!
+
+  Can you make it?
+
+  She looks so happy! The time we discussed works. How long shall I take her out for?
+
+  30 minute walk
+  $29
+
+  1 hour walk
+  $49
+
+  Type a message…
+
+  Simple booking
+
+  Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+  discuss arrangements and make bookings. Once the walk has been completed you can rate 
+  your walker and book again all through the chat.
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>-->
+</body>
+</html>
